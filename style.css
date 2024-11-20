@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(2, 37, 70);
+    margin: 0%;
+}
+
+.main {
+    border: 4px solid goldenrod;
+    height:auto;
+}
+.picture img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid blueviolet;
+    border-radius: 50% 50%;
+    
+    margin-left: 525px;
+
+}
+
+h2{
+    color: antiquewhite;
+ font-family: monospace;   
+ text-transform: uppercase;
+margin-left: 500px;
+;
+}
+
+b{
+    color: goldenrod;
+}
+
+.links{
+    display: block;
+    border: 3px solid goldenrod;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.links:hover{
+    border-radius: 20px 20px 20px 20px;
+    background-color: gold;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(2, 37, 70);
+}
